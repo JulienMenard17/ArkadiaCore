@@ -1,0 +1,164 @@
+##Enchantment :
+##       - "EnchantmentID:EnchantmentLevel";
+##For Enchantment IDs : https://www.planetminecraft.com/blog/minecraft-enchantment-ids/
+##For LegendaryBow:
+##Cooldown: Seconds
+##EffectDuration: Seconds
+##/givebow 
+##/givehammer
+##/giveorb speed
+##/giveorb strength
+##/giveorb nofall
+##/givehoe farm
+##/givehoe beche
+##/giverandomore | /givero
+##/givemagicarmor | /givema
+##/givemultitool | /givemt
+##/core reload
+##/core autofarm [on|off]
+##/giverepairstar | /givers
+LegendaryBow:
+    DisplayName: "&4Arc Légendaire"
+    Enchantment:
+        - "51:1"
+        - "48:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cet arc donne une effet de nausée pendant 10 secondes à son ennemi"
+        - "&3Cooldown : 15 secondes"
+        - "&7&m---------------"
+    Cooldown: 15
+    EffectDuration: 10
+SpeedOrb:
+    DisplayName: "&bOrbe de Speed"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cet orbe vous confère un effet de Speed II"
+        - "&7&m---------------"
+StrengthOrb:
+    DisplayName: "&cOrbe de Force"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cet orbe vous confère un effet de Force II"
+        - "&7&m---------------"
+NoFallOrb:
+    DisplayName: "&6Orbe d'Anti-Chute"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cet orbe vous protège contre les dégâts de Chute"
+        - "&7&m---------------"
+##For the Durability of the Hammer YOU NEED to put 'DURABILITY' somewhere in the Lore
+##Otherwise you will have an issue with the Hammer
+##PS: 1 Block Break = -1 Durability, so when you break the 9 block it remove 9 of the durability
+##Lore Example:
+## - "&5Durabilié: &6DURABILITY"
+##Show: Durabilité: 500
+Hammer:
+    DisplayName: "&8&l[&2&lPOLARIS&8&l'&2&lHAMMER&8&l]"
+    Enchantment:
+    Lore:
+        - "&8&m--------------------------"
+        - "&aCe marteau permet de miner tout les blocks en &23x3"
+        - "&5Durabilité : DURABILITY"
+        - "&8&m--------------------------"
+    Durability: 500
+FarmHoe:
+    DisplayName: "&6Houe de Farm"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cette houe vous permet de récolter les plantations sans replanter"
+        - "&7&m---------------"
+BecheHoe:
+    DisplayName: "&bHoue de Bêche"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cette houe vous permet de planter et bêcher en 3x3"
+        - "&7&m---------------"
+RandomOre:
+    DisplayName: "&dRandom Ore"
+    Enchantment:
+        - "34:3"
+    Lore:
+        - "&7&m---------------"
+        - "&3Cassez le pour obtenir un minerai aléatoire"      
+        - "&7&m---------------"
+## MagicArmor est pour les effets quand tu portes toute l'armure. Le premier nombre est l'id de l'effet et le 2e nombre est le niveau de l'effet (PS: les niveaux commence à 0)
+##Pour la listes des IDs : https://mcreator.net/wiki/potion-effect-ids
+##Exemple: 
+##     - "1:0"
+##Donne Speed 1
+MagicArmor:
+    Effects:
+        - "12:1"    ##Fire Resistance 2
+        - "1:1"     ##Speed 2
+        - "5:0"     ##Force 1
+        - "16:0"    ##Night Vision 1
+MagicHelmet:
+    DisplayName: "&dMagic Helmet"
+    Enchantment:
+        - "34:4"
+        - "0:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Portez l'armure complète pour avoir les effets suivants:"
+        - "&3Effets: Fire Resistance, Speed, Force et Night Vision"
+        - "&7&m---------------"
+MagicBody:
+    DisplayName: "&dMagic Body"
+    Enchantment:
+        - "34:4"
+        - "0:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Portez l'armure complète pour avoir les effets suivants:"      
+        - "&3Effets: Fire Resistance, Speed, Force et Night Vision"
+        - "&7&m---------------"
+MagicLegs:
+    DisplayName: "&dMagic Leggings"
+    Enchantment:
+        - "34:4"
+        - "0:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Portez l'armure complète pour avoir les effets suivants:"      
+        - "&3Effets: Fire Resistance, Speed, Force et Night Vision"
+        - "&7&m---------------"
+MagicBoots:
+    DisplayName: "&dMagic Boots"
+    Enchantment:
+        - "34:4"
+        - "0:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Portez l'armure complète pour avoir les effets suivants:"      
+        - "&3Effets: Fire Resistance, Speed, Force et Night Vision"
+        - "&7&m---------------"
+MultiTool:
+    DisplayName: "&6MultiTool"
+    Enchantment:
+        - "34:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Casse tout les blocs instantanément"
+        - "&7&m---------------"
+RepairStar:
+    DisplayName: "&dRepair Star"
+    Enchantment:
+        - "34:4"
+    Lore:
+        - "&7&m---------------"
+        - "&3Repare l'item que vous souhaitez"
+        - "&3Faites clique gauche sur l'item souhaité avec"
+        - "&3la &dRepair Star&3 sur votre curseur dans votre inventaire"
+        - "&7&m---------------"
+  

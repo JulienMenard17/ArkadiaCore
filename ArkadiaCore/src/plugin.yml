@@ -1,0 +1,27 @@
+name: ArkadiaCore
+version: 1.0
+author: SharkMenard
+main: ca.sharkmenard.arkadiacore.Main
+depend: [WorldGuard, ASkyBlock]
+
+commands:
+  givebow:
+  
+  givehammer:
+  
+  giveorb:
+  
+  givehoe:
+  
+  giverandomore:
+    aliases: givero
+    
+  givemagicarmor:
+    aliases: givema
+   
+  givemultitool:
+    aliases: givemt
+  core:
+  
+  giverepairstar:
+    aliases: givers

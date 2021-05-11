@@ -1,0 +1,12 @@
+##Si tu tombe dans le vide , dans n'importe quel monde sa t'execute la commande /spawn et sa te tue pas , dans la config sa sera sa : 
+player-teleported: "&3&lNo&b&lSuicide &f&l» &7Tu as été téléporter au spawn !"
+##Ne pas mettre le '/'
+teleported-cmd: "spawn"
+##Avec un systeme de killmessage : 
+death-message: '&9&l[&b&l⚔️&9&l] &3%player% &bvient de se faire tuer par &3%killer%&7 !'
+# time in seconds.
+timer: 1000
+messages:
+- "&9&l[&b&l❂&9&l] &7Arkadia c'est quoi ? &bUn serveur Farm2Win !&7 Bon jeu à toi."
+- "&9&l[&b&l❂&9&l] &7Un cheateur ? N'hésitez pas à utiliser &9/report <pseudo> &7!"
+- "&9&l[&b&l❂&9&l] &7Un problème avec votre item ? Droppez le par terre et récupérez le !"
